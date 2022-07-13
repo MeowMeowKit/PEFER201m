@@ -15,6 +15,7 @@ const HomeComponent = () => {
                <Route path="/lighting" element={<MainComponent />}></Route>
                <Route path="/bedding" element={<MainComponent />}></Route>
                <Route path="/badshower" element={<MainComponent />}></Route>
+               {/* <Redirect to="/home" /> */}
             </Route>
          </Routes>
       </div>

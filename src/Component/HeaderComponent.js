@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Navbar, NavbarBrand, NavLink } from "reactstrap";
 
 const HeaderComponent = () => {
@@ -10,9 +11,9 @@ const HeaderComponent = () => {
          <Navbar dark expand="md">
             <div className="container">
                <NavbarBrand className="mr-auto" href="/">
-                  <NavLink className="nav-link" to="/home">
+                  <Link to={"/home"}>
                      <img src="images/logo.png" height="50" alt="logo" />
-                  </NavLink>
+                  </Link>
                </NavbarBrand>
                <NavbarBrand className="ml-auto" href="/">
                   <img
