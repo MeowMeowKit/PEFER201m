@@ -42,7 +42,7 @@ const MainComponent = () => {
                      return <DetailComponent key={index} component={data} />;
                   })
                ) : (
-                  <div className="">
+                  <div className="row">
                      <DetailComponent component={bathShower[0]} />
                      <DetailComponent component={bedding[0]} />
                      <DetailComponent component={lighting[0]} />
